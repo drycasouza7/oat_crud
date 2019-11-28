@@ -1,0 +1,71 @@
+body, html{
+	height: 100%;
+}
+
+#container{
+	border: 1px solid #000;
+	height: 100%;
+	display: grid;
+	grid-template-rows: minmax(min-content,20%) minmax(min-content,7%) auto 15%;
+	grid-row-gap: 1%;
+}
+
+#header{
+	border: 3px solid #000;
+
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#main{
+	border: 1px solid #000;
+	display: grid;
+	grid-template-columns: 20% auto 20%;
+	grid-column-gap: 1%;
+
+	font-family: 'Chilanka', cursive;
+}
+
+#main #menu-lateral-direito, #main #menu-lateral-esquerdo {
+	border: 1px solid #000;
+
+	padding: 20px;
+}
+
+
+#main #content{
+	border: 5px solid #000;
+
+	padding: 50px;
+}
+
+
+#menu{
+	border: 1px solid #000;
+
+	display: none;
+}
+
+#menu ul{
+	display: flex;
+	list-style: none;
+	padding: 3px;
+}
+
+/*Quadro aba principal*/
+#menu ul li{
+	border: 1px solid #FF1493;
+	margin: 3px;
+	padding: 5px;
+}
+
+#menu-lateral-direiro ul, #menu-lateral-esquerdo ul{
+	list-style: none;
+	padding: 0px;
+}
+
+#menu-lateral-direiro ul li, #menu-lateral-esquerdo ul li {
+	border: 1px solid #FF1493;
+	margin: 3px;
+	padding: 5px;
+}

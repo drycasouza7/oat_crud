@@ -1,0 +1,87 @@
+body, html{
+	height: 100%;
+}
+
+#container{
+/*	border: 1px solid #000;*/
+	height: 100%;
+	display: grid;
+	grid-template-rows: minmax(min-content,20%) minmax(min-content,7%) auto minmax(min-content,7%);
+	color: #CD950C;
+}
+
+#header{
+	border: 1px solid #8B0000;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding:3px;
+	margin-bottom: 1%; 
+}
+
+#main{
+	border: 1px solid #8B0000;
+	display: grid;
+	grid-template-columns: auto;
+	font-family: 'Chilanka', cursive;
+	padding:3px;
+	margin-bottom: 1%;
+}
+
+#header img {
+	padding: 3px;
+    height: 150px;
+   	/*overflow: hidden;*/
+}
+
+#menu-lateral{
+	display: none;
+}
+
+
+#content{
+	margin-bottom: 1%;
+	padding:3px;
+	border: 1px solid #8B0000;
+	padding: 25px;
+	margin: 50px;
+	text-align:center;
+}
+
+#content #div #label #input{
+	margin: 1%;
+	padding:3px;
+	margin-bottom: 1%;
+
+}
+
+#main #content #div{
+	margin-top: 5px;
+}
+
+
+#menu{
+	border: 1px solid #8B0000;
+	display: inline;
+	margin-bottom: 1%;
+}
+
+
+#menu ul{
+	display: flex;
+	list-style: none;
+	margin: 1%;
+	padding:3px;
+}
+
+#menu ul li{
+	border: 2px solid #8B0000;
+	margin: 1%;
+	padding: 5px;
+}
+
+
+#footer{
+	text-align: center;
+	padding:3px;
+	border: 2px solid #8B0000;
+}
